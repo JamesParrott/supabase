@@ -233,7 +233,7 @@ services:
       - name: dashboard-all
         strip_path: true
         paths:
-          - /
+          - $NEXT_PUBLIC_BASE_PATH/
     plugins:
       - name: cors
       - name: basic-auth
